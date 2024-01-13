@@ -14,12 +14,11 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
-    - name: Run Make all
-      run: make all
-    - name: Upload a Build Artifact
-      uses: actions/upload-artifact@v4.1.0
-      with:
-        # A file, directory or wildcard pattern that describes what to upload
-        path: README.md
+    - name: Run Render
+      run: ./render-template.py README.md.jinja data/projects.toml > README.md
+    - name: Commit results
+      run: |
+        git commit README.md -m 'Re-build README.Rmd' || echo "No changes to commit"
+        git push origin || echo "No changes to commit"
 
           
