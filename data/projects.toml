@@ -381,7 +381,6 @@ tags = ["csv"]
 "Output formats" = "<output file> ends with .dta, .por, .sav, .sas7bdat, .xpt or .csv"
 "Additional output formats" = "<output file> ends with .xlsx(with libxlsxwriter), .zsav(with zlib)"
 "Dictionaries" = "<dictionary file> ends with .dct, .sas, or .sps"
-"Documentation" = "https://github.com/WizardMac/ReadStat"
 
 [Remarshal]
 url = "https://github.com/dbohdan/remarshal"
