@@ -373,15 +373,6 @@ url = "https://github.com/WizardMac/ReadStat"
 descr = "ReadStat is a command-line tool and C library for reading and converting files from SAS(SAS7BDAT,XPORT), SPSS(POR,SAV,ZSAV), Stata(DTA). The files can be converted to CSV and XLS. There are bindings for several languages and a dockerized version."
 tags = ["csv"]
 
-[ReadStat.props]
-"License" = "MIT"
-"Programming language" = "C"
-"Bindings" = "Julia, Perl, Python, R"
-"Input formats" = "<input file> ends with .dta, .por, .sav, .sas7bdat, or .xpt"
-"Output formats" = "<output file> ends with .dta, .por, .sav, .sas7bdat, .xpt or .csv"
-"Additional output formats" = "<output file> ends with .xlsx(with libxlsxwriter), .zsav(with zlib)"
-"Dictionaries" = "<dictionary file> ends with .dct, .sas, or .sps"
-
 [Remarshal]
 url = "https://github.com/dbohdan/remarshal"
 descr = "Convert between CBOR, JSON, MessagePack, TOML, and YAML. Validate each of the formats. Pretty-print JSON, TOML, and YAML."
