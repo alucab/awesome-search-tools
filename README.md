@@ -90,6 +90,14 @@ CSV, TSV, and other delimiter-separated value formats. Tools belong on this list
 * [pawk](https://github.com/alecthomas/pawk) **—** Process text with AWK-like patterns, but Python code.
 * [qsv](https://github.com/jqnatividad/qsv) **—** Index, slice, analyze, split, and join CSV files. A fork of xsv that adds subcommands and features.
 * [ReadStat](https://github.com/WizardMac/ReadStat) **—** ReadStat is a command-line tool and C library for reading and converting files from SAS(SAS7BDAT,XPORT), SPSS(POR,SAV,ZSAV), Stata(DTA). The files can be converted to CSV and XLS. There are bindings for several languages and a dockerized version.
+    * **License:** MIT
+    * **Programming language:** C
+    * **Bindings:** Julia, Perl, Python, R
+    * **Input formats:** <input file> ends with .dta, .por, .sav, .sas7bdat, or .xpt
+    * **Output formats:** <output file> ends with .dta, .por, .sav, .sas7bdat, .xpt or .csv
+    * **Additional output formats:** <output file> ends with .xlsx(with libxlsxwriter), .zsav(with zlib)
+    * **Dictionaries:** <dictionary file> ends with .dct, .sas, or .sps
+    * **Documentation:** https://github.com/WizardMac/ReadStat
 * [rows](https://github.com/turicas/rows) **—** A Python library with a [CLI](http://turicas.info/rows/cli/). Convert between a number of [file formats](http://turicas.info/rows/plugins/) for tabular data: CSV, XLS, XLSX, ODS, and others. Query the data (via SQLite). Combine tables. Generate schemas.
 * [rq](https://github.com/dflemstr/rq) **—** Convert between Apache Avro, CBOR, CSV, JSON, MessagePack, Protocol Buffers, TOML, YAML, and awk-style plain text.
 * [scrubcsv](https://github.com/faradayio/scrubcsv) **—** Remove bad lines from a CSV file and normalize the rest. Written in Rust.
