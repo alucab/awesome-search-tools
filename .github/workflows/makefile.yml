@@ -18,6 +18,8 @@ jobs:
       run: ./render-template.py README.md.jinja data/projects.toml > README.md
     - name: Commit results
       run: |
+        git config user.email "alucab@alucab.org"
+        git config user.name "alucab"
         git commit README.md -m 'Re-build README.Rmd' || echo "No changes to commit"
         git push origin || echo "No changes to commit"
 
