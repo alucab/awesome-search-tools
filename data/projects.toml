@@ -1,7 +1,6 @@
 ["Bleve"]
 url = "https://github.com/blevesearch/bleve"
 descr = "A modern text indexing library in go. Index any go data structure (including JSON).Bleve is a search engine that uses Lucene-style full-text search and indexing. This style of search and indexing helps overcome limitations of the default database search such as challenges with characters and advanced search capabilities."
-license = "Apache License Version 2.0"
 tags = ["libraries","go"]
 
 ["Bluge"]
@@ -19,7 +18,7 @@ url = "https://github.com/zincsearch/zincsearch"
 descr = "ZincSearch is a search engine that does full text indexing. It is a lightweight alternative to Elasticsearch and runs using a fraction of the resources. It uses bluge as the underlying indexing library and provide integrated ingestion and searching GUI"
 tags = ["tools,go"]
 
-[elasticlunr]
+["elasticlunr"]
 url = "http://elasticlunr.com/"
 descr = "Lightweight full-text search engine in JavaScript for browser search and offline search."
 tags = ["in-memory,javascript"]
@@ -74,7 +73,7 @@ url = "https://github.com/jameslittle230/stork"
 descr = "Fast web search, made for static sites."
 tags = ["in-memory"]
 
-[Full-Text Search in MongoDB]
+["Full Text Search in MongoDB"]
 url = "http://code.tutsplus.com/tutorials/full-text-search-in-mongodb--cms-24835"
 descr = "How to Full-Text Search in MongoDB."
 tags = ["mongo"]
@@ -111,25 +110,25 @@ tags = ["elasticsearch"]
 
 ["Algolia"]
 url = "https://www.algolia.com"
-desc = "Algolia is a proprietary search-as-a-service platform designed for use cases that require high quality and relevant search."
+descr = "Algolia is a proprietary search-as-a-service platform designed for use cases that require high quality and relevant search."
 tags = ["algolia,saas"]
 
 ["Awesome Algolia"]
 url = "https://github.com/algolia/awesome-algolia"
-desc = "A curated list of awesome things related to Algolia, inspired by awesome.re"
+descr = "A curated list of awesome things related to Algolia, inspired by awesome.re"
 tags = ["algolia,saas"]
 
-[algolia/places]
+["algolia/places"]
 url = "https://github.com/algolia/places"
 descr = "Turn any <input> into an address autocomplete."
 tags = ["algolia"]
 
-[algolia/datasets]
+["algolia/datasets"]
 url = "https://github.com/algolia/datasets"
 descr = "Interesting datasets you could use with Algolia."
 tags = ["algolia"]
 
-[algolia-webcrawler]
+["algolia-webcrawler"]
 url = "https://github.com/DeuxHuitHuit/algolia-webcrawler"
 descr = "Simple node worker that crawls sitemaps in order to keep an algolia index up-to-date."
 tags = ["algolia"]
@@ -151,5 +150,5 @@ tags = ["algolia"]
 
 ["Awesome Search(For E-Commerce)"]
 url = "https://github.com/algolia/awesome-algolia"
-desc = "Awesome Search - this is all about the (e-commerce, but not only) search and its awesomeness"
+descr = "Awesome Search - this is all about the (e-commerce, but not only) search and its awesomeness"
 tags = ["sites"]
