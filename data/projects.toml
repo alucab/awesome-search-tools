@@ -1,3 +1,7 @@
+["Bluge"]
+url = "https://github.com/blugelabs/bluge"
+tags = ["libraries","GO"]
+
 ["Elasticsearch"]
 url = "https://www.elastic.co"
 tags = ["elasticsearch"]
@@ -13,3 +17,7 @@ tags = ["algolia"]
 ["Awesome Algolia"]
 url = "https://github.com/algolia/awesome-algolia"
 tags = ["algolia"]
+
+["Awesome Search For E-Commerce"]
+url = "https://github.com/algolia/awesome-algolia"
+tags = ["sites"]
