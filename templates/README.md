@@ -6,10 +6,17 @@ I started this catalog as there are only Elastic Search or Algolia pages while p
 - [Awesome Search Tools And Libraries](#awesome-search-tools-and-libraries)
   - [Tools](#tools)
   - [Libraries](#libraries)
+  - [In Memory](#in-memory)
   - [Saas](#saas)
   - [Heavy Weights](#heavy-weights)
     - [Elasticsearch](#elasticsearch)
     - [Algolia](#algolia)
+  - [Database](#database)
+    - [Mongo DB](#mongo-db)
+  - [By Language](#by-language)
+    - [Go](#go)
+    - [Javascript/Node.js](#javascriptnodejs)
+    - [Java](#java)
   - [Information Sources](#information-sources)
   - [Credits](#credits)
   - [License](#license)
@@ -21,6 +28,10 @@ I started this catalog as there are only Elastic Search or Algolia pages while p
 ## Libraries
 
 {{ projs_with_tag("libraries") }}
+
+## In Memory
+
+{{ projs_with_tag("in-memory") }}
 
 ## Saas
 
@@ -35,6 +46,26 @@ I started this catalog as there are only Elastic Search or Algolia pages while p
 ### Algolia
 
 {{ projs_with_tag("algolia") }}
+
+## Database
+
+### Mongo DB
+
+{{ projs_with_tag("mongo") }}
+
+## By Language
+
+### Go
+
+{{ projs_with_tag("go") }}
+
+### Javascript/Node.js
+
+{{ projs_with_tag("javascript") }}
+
+### Java
+
+{{ projs_with_tag("java") }}
 
 ## Information Sources
 

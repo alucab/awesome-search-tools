@@ -29,7 +29,7 @@ class Project:
 
 
 def list_item(proj: Project) -> str:
-    item = [f"* [{proj.name}]({proj.url})"]
+    item = [f"- [{proj.name}]({proj.url})"]
 
     if proj.descr is not None:
         item.append(f" **—** {proj.descr}")

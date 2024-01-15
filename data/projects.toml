@@ -16,27 +16,27 @@ tags = ["tools","go"]
 ["Zincsearch"]
 url = "https://github.com/zincsearch/zincsearch"
 descr = "ZincSearch is a search engine that does full text indexing. It is a lightweight alternative to Elasticsearch and runs using a fraction of the resources. It uses bluge as the underlying indexing library and provide integrated ingestion and searching GUI"
-tags = ["tools,go"]
+tags = ["tools","go"]
 
 ["elasticlunr"]
 url = "http://elasticlunr.com/"
 descr = "Lightweight full-text search engine in JavaScript for browser search and offline search."
-tags = ["in-memory,javascript"]
+tags = ["in-memory","javascript"]
 
 [lunr]
 url = "http://lunrjs.com"
 descr = "A bit like Solr, but much smaller and not as bright."
-tags = ["in-memory,javascript"]
+tags = ["in-memory","javascript"]
 
 [pouchdb-quick-search]
 url = "https://github.com/nolanlawson/pouchdb-quick-search"
 descr = "Full-text search engine on top of PouchDB."
-tags = ["in-memory,javascript"]
+tags = ["in-memory","javascript"]
 
 [search-index]
 url = "https://github.com/fergiemcdowall/search-index"
 descr = "A persistent, network resilient, full text search library for the browser and Node.js."
-tags = ["in-memory,javascript"]
+tags = ["in-memory","javascript"]
 
 [reds]
 url = "https://github.com/tj/reds"
@@ -51,17 +51,17 @@ tags = ["in-memory"]
 [levi]
 url = "https://github.com/cshum/levi"
 descr = "Stream based full-text search for Node.js and browsers."
-tags = ["in-memory,javascript"]
+tags = ["in-memory","javascript"]
 
 [minisearch]
 url = "https://github.com/lucaong/minisearch"
 descr = "Tiny but powerful in-memory fulltext search engine written in JavaScript."
-tags = ["in-memory,javascript"]
+tags = ["in-memory","javascript"]
 
 [flexsearch]
 url = "https://github.com/nextapps-de/flexsearch"
 descr = "Next-Generation full text search library for Browser and Node.js."
-tags = ["in-memory,javascript"]
+tags = ["in-memory","javascript"]
 
 [tinysearch]
 url = "https://github.com/tinysearch/tinysearch"
@@ -96,12 +96,12 @@ tags = ["mongo"]
 ["Elasticsearch"]
 url = "https://www.elastic.co"
 descr = "The Elasticsearch Platform (a.k.a. the ELK Stack) enables enterprises to accelerate business outcomes by combining the power of search and AI."
-tags = ["elasticsearch,java"]
+tags = ["elasticsearch","java"]
 
 ["Awesome Elasticsearch"]
 url = "https://github.com/dzharii/awesome-elasticsearch"
 descr = "A curated list of the most important and useful resources about elasticsearch: articles, videos, blogs, tips and tricks, use cases. All about Elasticsearch!"
-tags = ["elasticsearch,java"]
+tags = ["elasticsearch","java"]
 
 [Searchkit]
 url = "http://www.searchkit.co/"
@@ -111,12 +111,12 @@ tags = ["elasticsearch"]
 ["Algolia"]
 url = "https://www.algolia.com"
 descr = "Algolia is a proprietary search-as-a-service platform designed for use cases that require high quality and relevant search."
-tags = ["algolia,saas"]
+tags = ["algolia","saas"]
 
 ["Awesome Algolia"]
 url = "https://github.com/algolia/awesome-algolia"
 descr = "A curated list of awesome things related to Algolia, inspired by awesome.re"
-tags = ["algolia,saas"]
+tags = ["algolia","saas"]
 
 ["algolia/places"]
 url = "https://github.com/algolia/places"
