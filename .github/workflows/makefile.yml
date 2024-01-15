@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-
+    - run: chmod +x ./templates/render-template.py
     - name: Run Render
       run: ./templates/render-template.py README.md data/projects.toml > README.md
     - name: Commit results
