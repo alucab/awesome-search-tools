@@ -1,23 +1,45 @@
+["Bleve"]
+url = "https://github.com/blevesearch/bleve"
+descr = "A modern text indexing library in go. Index any go data structure (including JSON).Bleve is a search engine that uses Lucene-style full-text search and indexing. This style of search and indexing helps overcome limitations of the default database search such as challenges with characters and advanced search capabilities."
+license = "Apache License Version 2.0"
+tags = ["libraries","go"]
+
 ["Bluge"]
 url = "https://github.com/blugelabs/bluge"
-tags = ["libraries","GO"]
+descr = "Bluge is an indexing/search library for Go. Bluge originated as an evolution of the Bleve search library. Bleve has seen wide adoption, but that success comes with some downside. As companies ship products using Bleve, they require backwards compatibility, and this has led to a slower more incremental progression.Bluge is an attempt to break out of this model, making many breaking changes all at once."
+tags = ["libraries","go"]
+
+["Bluge"]
+url = "https://github.com/valeriansaliou/sonic"
+descr = "Bluge is an indexing/search library for Go. Bluge originated as an evolution of the Bleve search library. Bleve has seen wide adoption, but that success comes with some downside. As companies ship products using Bleve, they require backwards compatibility, and this has led to a slower more incremental progression.Bluge is an attempt to break out of this model, making many breaking changes all at once."
+tags = ["tools","go"]
+
+["Zincsearch"]
+url = "https://github.com/zincsearch/zincsearch"
+descr = "ZincSearch is a search engine that does full text indexing. It is a lightweight alternative to Elasticsearch and runs using a fraction of the resources. It uses bluge as the underlying indexing library and provide integrated ingestion and searching GUI"
+tags = ["tools,go"]
 
 ["Elasticsearch"]
 url = "https://www.elastic.co"
-tags = ["elasticsearch"]
+descr = "The Elasticsearch Platform (a.k.a. the ELK Stack) enables enterprises to accelerate business outcomes by combining the power of search and AI."
+tags = ["elasticsearch,java"]
 
 ["Awesome Elasticsearch"]
 url = "https://github.com/dzharii/awesome-elasticsearch"
-tags = ["elasticsearch"]
+descr = "A curated list of the most important and useful resources about elasticsearch: articles, videos, blogs, tips and tricks, use cases. All about Elasticsearch!"
+tags = ["elasticsearch,java"]
 
 ["Algolia"]
 url = "https://www.algolia.com"
-tags = ["algolia"]
+desc = "Algolia is a proprietary search-as-a-service platform designed for use cases that require high quality and relevant search."
+tags = ["algolia,saas"]
 
 ["Awesome Algolia"]
 url = "https://github.com/algolia/awesome-algolia"
-tags = ["algolia"]
+desc = "A curated list of awesome things related to Algolia, inspired by awesome.re"
+tags = ["algolia,saas"]
 
-["Awesome Search For E-Commerce"]
+["Awesome Search(For E-Commerce)"]
 url = "https://github.com/algolia/awesome-algolia"
+desc = "Awesome Search - this is all about the (e-commerce, but not only) search and its awesomeness"
 tags = ["sites"]
