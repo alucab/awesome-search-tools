@@ -43,7 +43,7 @@ def list_item(proj: Project) -> str:
 
 
 @click.command()
-@click.argument("template-name", type=click.Path(exists=True, path_type=Path))
+@click.argument("template-name", type=click.Path(exists=False, path_type=Path))
 @click.argument("data-path", type=click.Path(exists=True, path_type=Path))
 def main(template_name: Path, data_path: Path) -> None:
     data = tomli.loads(data_path.read_text())
@@ -56,7 +56,7 @@ def main(template_name: Path, data_path: Path) -> None:
         return "\n".join(list_item(proj) for proj in proj_data(tag))
 
     env = j2.Environment(
-        loader=j2.FileSystemLoader("."),
+        loader=j2.FileSystemLoader("./templates"),
         autoescape=j2.select_autoescape(),
         trim_blocks=True,
         lstrip_blocks=True,
