@@ -9,15 +9,90 @@ url = "https://github.com/blugelabs/bluge"
 descr = "Bluge is an indexing/search library for Go. Bluge originated as an evolution of the Bleve search library. Bleve has seen wide adoption, but that success comes with some downside. As companies ship products using Bleve, they require backwards compatibility, and this has led to a slower more incremental progression.Bluge is an attempt to break out of this model, making many breaking changes all at once."
 tags = ["libraries","go"]
 
-["Bluge"]
+["Sonic"]
 url = "https://github.com/valeriansaliou/sonic"
-descr = "Bluge is an indexing/search library for Go. Bluge originated as an evolution of the Bleve search library. Bleve has seen wide adoption, but that success comes with some downside. As companies ship products using Bleve, they require backwards compatibility, and this has led to a slower more incremental progression.Bluge is an attempt to break out of this model, making many breaking changes all at once."
+descr = "Fast, lightweight & schema-less search backend. An alternative to Elasticsearch that runs on a few MBs of RAM.Sonic is a fast, lightweight and schema-less search backend. It ingests search texts and identifier tuples that can then be queried against in a microsecond's time."
 tags = ["tools","go"]
 
 ["Zincsearch"]
 url = "https://github.com/zincsearch/zincsearch"
 descr = "ZincSearch is a search engine that does full text indexing. It is a lightweight alternative to Elasticsearch and runs using a fraction of the resources. It uses bluge as the underlying indexing library and provide integrated ingestion and searching GUI"
 tags = ["tools,go"]
+
+[elasticlunr]
+url = "http://elasticlunr.com/"
+descr = "Lightweight full-text search engine in JavaScript for browser search and offline search."
+tags = ["in-memory,javascript"]
+
+[lunr]
+url = "http://lunrjs.com"
+descr = "A bit like Solr, but much smaller and not as bright."
+tags = ["in-memory,javascript"]
+
+[pouchdb-quick-search]
+url = "https://github.com/nolanlawson/pouchdb-quick-search"
+descr = "Full-text search engine on top of PouchDB."
+tags = ["in-memory,javascript"]
+
+[search-index]
+url = "https://github.com/fergiemcdowall/search-index"
+descr = "A persistent, network resilient, full text search library for the browser and Node.js."
+tags = ["in-memory,javascript"]
+
+[reds]
+url = "https://github.com/tj/reds"
+descr = "A light-weight, insanely simple full text search module backed by Redis."
+tags = ["in-memory"]
+
+[fulltext-engine]
+url = "https://github.com/eugeneware/fulltext-engine"
+descr = "Full text search backed by levelup/leveldb engine."
+tags = ["in-memory"]
+
+[levi]
+url = "https://github.com/cshum/levi"
+descr = "Stream based full-text search for Node.js and browsers."
+tags = ["in-memory,javascript"]
+
+[minisearch]
+url = "https://github.com/lucaong/minisearch"
+descr = "Tiny but powerful in-memory fulltext search engine written in JavaScript."
+tags = ["in-memory,javascript"]
+
+[flexsearch]
+url = "https://github.com/nextapps-de/flexsearch"
+descr = "Next-Generation full text search library for Browser and Node.js."
+tags = ["in-memory,javascript"]
+
+[tinysearch]
+url = "https://github.com/tinysearch/tinysearch"
+descr = "This is a lightweight, fast, full-text search engine for static websites."
+tags = ["in-memory"]
+
+[stork]
+url = "https://github.com/jameslittle230/stork"
+descr = "Fast web search, made for static sites."
+tags = ["in-memory"]
+
+[Full-Text Search in MongoDB]
+url = "http://code.tutsplus.com/tutorials/full-text-search-in-mongodb--cms-24835"
+descr = "How to Full-Text Search in MongoDB."
+tags = ["mongo"]
+
+[mongoosastic]
+url = "https://github.com/mongoosastic/mongoosastic"
+descr = "Index Mongoose models into elasticsearch automatically."
+tags = ["mongo"]
+
+[mongoose-text-search]
+url = "https://github.com/aheckmann/mongoose-text-search"
+descr = "MongoDB 2.4 text search support for mongoose."
+tags = ["mongo"]
+
+[elmongo]
+url = "https://github.com/jtremback/elmongo"
+descr = "Give your Mongoose data the Power of Elasticsearch."
+tags = ["mongo"]
 
 ["Elasticsearch"]
 url = "https://www.elastic.co"
@@ -29,6 +104,11 @@ url = "https://github.com/dzharii/awesome-elasticsearch"
 descr = "A curated list of the most important and useful resources about elasticsearch: articles, videos, blogs, tips and tricks, use cases. All about Elasticsearch!"
 tags = ["elasticsearch,java"]
 
+[Searchkit]
+url = "http://www.searchkit.co/"
+descr = "UI components for Elasticsearch."
+tags = ["elasticsearch"]
+
 ["Algolia"]
 url = "https://www.algolia.com"
 desc = "Algolia is a proprietary search-as-a-service platform designed for use cases that require high quality and relevant search."
@@ -38,6 +118,36 @@ tags = ["algolia,saas"]
 url = "https://github.com/algolia/awesome-algolia"
 desc = "A curated list of awesome things related to Algolia, inspired by awesome.re"
 tags = ["algolia,saas"]
+
+[algolia/places]
+url = "https://github.com/algolia/places"
+descr = "Turn any <input> into an address autocomplete."
+tags = ["algolia"]
+
+[algolia/datasets]
+url = "https://github.com/algolia/datasets"
+descr = "Interesting datasets you could use with Algolia."
+tags = ["algolia"]
+
+[algolia-webcrawler]
+url = "https://github.com/DeuxHuitHuit/algolia-webcrawler"
+descr = "Simple node worker that crawls sitemaps in order to keep an algolia index up-to-date."
+tags = ["algolia"]
+
+[algolia-sitemap]
+url = "https://github.com/algolia/algolia-sitemap"
+descr = "A Node.js library allowing you to generate sitemaps from an Algolia index."
+tags = ["algolia"]
+
+[figolia]
+url = "https://github.com/webstylestory/figolia"
+descr = "Keep your Algolia search indexes in sync with your Firebase datasets."
+tags = ["algolia"]
+
+[mongoolia]
+url = "https://github.com/algolia/mongoolia"
+descr = "Keep your mongoose schemas synced with Algolia."
+tags = ["algolia"]
 
 ["Awesome Search(For E-Commerce)"]
 url = "https://github.com/algolia/awesome-algolia"
