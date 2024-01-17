@@ -4,7 +4,7 @@ The following is a list of search tools and libraries useful to implement inform
 I started this catalog as there are only Elastic Search or Algolia pages while plenty of interesting and lighter alternatives do exist.
 
 - [Awesome Search Tools And Libraries](#awesome-search-tools-and-libraries)
-  - [Tools](#tools)
+  - [Solutions](#solutions)
   - [Libraries](#libraries)
   - [In Memory](#in-memory)
   - [Saas](#saas)
@@ -21,10 +21,14 @@ I started this catalog as there are only Elastic Search or Algolia pages while p
   - [Credits](#credits)
   - [License](#license)
 
-## Tools
+## Solutions
 
 - [Sonic](https://github.com/valeriansaliou/sonic) **—** Fast, lightweight & schema-less search backend. An alternative to Elasticsearch that runs on a few MBs of RAM.Sonic is a fast, lightweight and schema-less search backend. It ingests search texts and identifier tuples that can then be queried against in a microsecond's time.
 - [Zincsearch](https://github.com/zincsearch/zincsearch) **—** ZincSearch is a search engine that does full text indexing. It is a lightweight alternative to Elasticsearch and runs using a fraction of the resources. It uses bluge as the underlying indexing library and provide integrated ingestion and searching GUI
+- [Open Search](https://github.com/opensearch-project) **—** OpenSearch is a community-driven, open-source search and analytics suite used by developers to ingest, search, visualize, and analyze data. Introduced in January 2021, the OpenSearch Project originated as an open-source fork of Elasticsearch 7.10.2. OpenSearch 1.0 was released for production use in July 2021 and is licensed under the Apache License, Version 2.0 (ALv2), with the complete codebase published to GitHub. The project has consistently focused on improving the performance of its core open-source engine for high-volume indexing and low-latency search operations. OpenSearch aims to provide the best experience for every user by reducing latency and improving efficiency.
+    * **Overview:** https://opensearch.org/blog/opensearch-performance-improvements
+    * **Documentation link:** https://opensearch.org/docs/latest
+    * **Programming language:** Java
 
 ## Libraries
 
@@ -54,6 +58,10 @@ I started this catalog as there are only Elastic Search or Algolia pages while p
 
 ### Elasticsearch
 
+- [Open Search](https://github.com/opensearch-project) **—** OpenSearch is a community-driven, open-source search and analytics suite used by developers to ingest, search, visualize, and analyze data. Introduced in January 2021, the OpenSearch Project originated as an open-source fork of Elasticsearch 7.10.2. OpenSearch 1.0 was released for production use in July 2021 and is licensed under the Apache License, Version 2.0 (ALv2), with the complete codebase published to GitHub. The project has consistently focused on improving the performance of its core open-source engine for high-volume indexing and low-latency search operations. OpenSearch aims to provide the best experience for every user by reducing latency and improving efficiency.
+    * **Overview:** https://opensearch.org/blog/opensearch-performance-improvements
+    * **Documentation link:** https://opensearch.org/docs/latest
+    * **Programming language:** Java
 - [Elasticsearch](https://www.elastic.co) **—** The Elasticsearch Platform (a.k.a. the ELK Stack) enables enterprises to accelerate business outcomes by combining the power of search and AI.
 - [Awesome Elasticsearch](https://github.com/dzharii/awesome-elasticsearch) **—** A curated list of the most important and useful resources about elasticsearch: articles, videos, blogs, tips and tricks, use cases. All about Elasticsearch!
 - [Searchkit](http://www.searchkit.co/) **—** UI components for Elasticsearch.
@@ -96,9 +104,17 @@ I started this catalog as there are only Elastic Search or Algolia pages while p
 - [levi](https://github.com/cshum/levi) **—** Stream based full-text search for Node.js and browsers.
 - [minisearch](https://github.com/lucaong/minisearch) **—** Tiny but powerful in-memory fulltext search engine written in JavaScript.
 - [flexsearch](https://github.com/nextapps-de/flexsearch) **—** Next-Generation full text search library for Browser and Node.js.
+- [Open Search](https://github.com/opensearch-project) **—** OpenSearch is a community-driven, open-source search and analytics suite used by developers to ingest, search, visualize, and analyze data. Introduced in January 2021, the OpenSearch Project originated as an open-source fork of Elasticsearch 7.10.2. OpenSearch 1.0 was released for production use in July 2021 and is licensed under the Apache License, Version 2.0 (ALv2), with the complete codebase published to GitHub. The project has consistently focused on improving the performance of its core open-source engine for high-volume indexing and low-latency search operations. OpenSearch aims to provide the best experience for every user by reducing latency and improving efficiency.
+    * **Overview:** https://opensearch.org/blog/opensearch-performance-improvements
+    * **Documentation link:** https://opensearch.org/docs/latest
+    * **Programming language:** Java
 
 ### Java
 
+- [Open Search](https://github.com/opensearch-project) **—** OpenSearch is a community-driven, open-source search and analytics suite used by developers to ingest, search, visualize, and analyze data. Introduced in January 2021, the OpenSearch Project originated as an open-source fork of Elasticsearch 7.10.2. OpenSearch 1.0 was released for production use in July 2021 and is licensed under the Apache License, Version 2.0 (ALv2), with the complete codebase published to GitHub. The project has consistently focused on improving the performance of its core open-source engine for high-volume indexing and low-latency search operations. OpenSearch aims to provide the best experience for every user by reducing latency and improving efficiency.
+    * **Overview:** https://opensearch.org/blog/opensearch-performance-improvements
+    * **Documentation link:** https://opensearch.org/docs/latest
+    * **Programming language:** Java
 - [Elasticsearch](https://www.elastic.co) **—** The Elasticsearch Platform (a.k.a. the ELK Stack) enables enterprises to accelerate business outcomes by combining the power of search and AI.
 - [Awesome Elasticsearch](https://github.com/dzharii/awesome-elasticsearch) **—** A curated list of the most important and useful resources about elasticsearch: articles, videos, blogs, tips and tricks, use cases. All about Elasticsearch!
 
