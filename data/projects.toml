@@ -8,6 +8,9 @@ url = "https://github.com/blugelabs/bluge"
 descr = "Bluge is an indexing/search library for Go. Bluge originated as an evolution of the Bleve search library. Bleve has seen wide adoption, but that success comes with some downside. As companies ship products using Bleve, they require backwards compatibility, and this has led to a slower more incremental progression.Bluge is an attempt to break out of this model, making many breaking changes all at once."
 tags = ["libraries","go"]
 
+
+
+
 ["Sonic"]
 url = "https://github.com/valeriansaliou/sonic"
 descr = "Fast, lightweight & schema-less search backend. An alternative to Elasticsearch that runs on a few MBs of RAM.Sonic is a fast, lightweight and schema-less search backend. It ingests search texts and identifier tuples that can then be queried against in a microsecond's time."
@@ -17,6 +20,7 @@ tags = ["tools","go"]
 url = "https://github.com/zincsearch/zincsearch"
 descr = "ZincSearch is a search engine that does full text indexing. It is a lightweight alternative to Elasticsearch and runs using a fraction of the resources. It uses bluge as the underlying indexing library and provide integrated ingestion and searching GUI"
 tags = ["tools","go"]
+
 
 ["elasticlunr"]
 url = "http://elasticlunr.com/"
@@ -92,6 +96,18 @@ tags = ["mongo"]
 url = "https://github.com/jtremback/elmongo"
 descr = "Give your Mongoose data the Power of Elasticsearch."
 tags = ["mongo"]
+
+["Open Search"]
+url = "https://github.com/opensearch-project"
+descr = "OpenSearch is a community-driven, open-source search and analytics suite used by developers to ingest, search, visualize, and analyze data. Introduced in January 2021, the OpenSearch Project originated as an open-source fork of Elasticsearch 7.10.2. OpenSearch 1.0 was released for production use in July 2021 and is licensed under the Apache License, Version 2.0 (ALv2), with the complete codebase published to GitHub. The project has consistently focused on improving the performance of its core open-source engine for high-volume indexing and low-latency search operations. OpenSearch aims to provide the best experience for every user by reducing latency and improving efficiency."
+tags = ["tools","elasticsearch","java","javascript"]
+
+["Open Search".props]
+"Overview" ="https://opensearch.org/blog/opensearch-performance-improvements"
+"Documentation link" = "https://opensearch.org/docs/latest"
+"Programming language" = "Java"
+
+
 
 ["Elasticsearch"]
 url = "https://www.elastic.co"

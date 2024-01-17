@@ -4,7 +4,7 @@ The following is a list of search tools and libraries useful to implement inform
 I started this catalog as there are only Elastic Search or Algolia pages while plenty of interesting and lighter alternatives do exist.
 
 - [Awesome Search Tools And Libraries](#awesome-search-tools-and-libraries)
-  - [Tools](#tools)
+  - [Solutions](#solutions)
   - [Libraries](#libraries)
   - [In Memory](#in-memory)
   - [Saas](#saas)
@@ -21,7 +21,7 @@ I started this catalog as there are only Elastic Search or Algolia pages while p
   - [Credits](#credits)
   - [License](#license)
 
-## Tools
+## Solutions
 
 {{ projs_with_tag("tools") }}
 
